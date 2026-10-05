@@ -16,3 +16,13 @@ a=10
 print(type(a))
 a="giri"
 print(type(a))
+a=int(10)
+b=int(20)
+c=print(a+b)
+a=int(input())
+b=int(input())
+c=a+b
+print(c)
+a=input("Enter first number: ")
+b=input("Enter second number: ")
+print(a+b)
