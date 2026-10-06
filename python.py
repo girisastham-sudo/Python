@@ -27,3 +27,8 @@ a=input("Enter your name: ")
 print(a)
 b=int(input("Enter your age: "))
 print(b)
+a=input()
+b=input()
+c=a+b
+print(c)
+
