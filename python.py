@@ -48,3 +48,8 @@ else:
   print("b is not greater than a")
   thislist = ["apple", "banana", "cherry"]
 print(thislist)
+import datetime
+
+x = datetime.datetime(2020, 5, 17)
+
+print(x)
