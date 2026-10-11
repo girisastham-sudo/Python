@@ -53,3 +53,9 @@ import datetime
 x = datetime.datetime(2020, 5, 17)
 
 print(x)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
