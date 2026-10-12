@@ -46,16 +46,8 @@ if b > a:
   print("b is greater than a")
 else:
   print("b is not greater than a")
-  thislist = ["apple", "banana", "cherry"]
-print(thislist)
-import datetime
-
-x = datetime.datetime(2020, 5, 17)
-
-print(x)
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-print(thisdict)
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
