@@ -46,17 +46,19 @@ if b > a:
   print("b is greater than a")
 else:
   print("b is not greater than a")
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
-  if x == "banana":
-    break
-  class Person:
-  def __init__(self, name):
-    self.name = name
+mystr = "banana"
+myit = iter(mystr)
 
-  def greet(self):
-    print("Hello, my name is " + self.name)
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
 
-p1 = Person("Emil")
-p1.greet()
+
+a=int(input("enter a number"))
+if(a%2==0):
+  print("even")
+else:
+  print("odd")
